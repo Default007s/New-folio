@@ -51,6 +51,9 @@ arrowLeft.addEventListener("click", function () {
   if (slideLeft > -200) {
     slideLeft = slideLeft - 100;
     testimonials.style.left = `${slideLeft}%`;
+  } else if(slideLeft = -200){
+    slideLeft = 0;
+    testimonials.style.left = `${slideLeft}%`;
   }
   dotsFunc();
 });
@@ -58,6 +61,9 @@ arrowLeft.addEventListener("click", function () {
 arrowRight.addEventListener("click", function () {
   if (slideLeft != 0) {
     slideLeft = slideLeft + 100;
+    testimonials.style.left = `${slideLeft}%`;
+  } else if(slideLeft == 0){
+    slideLeft = slideLeft - 200;
     testimonials.style.left = `${slideLeft}%`;
   }
   dotsFunc();
