@@ -1,0 +1,75 @@
+body {
+  overflow: hidden;
+}
+
+.p1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  padding-top: 20vh;
+}
+
+.p1 h1 {
+  font-size: 4.5vw;
+  word-spacing: 0.5vw;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 10vw;
+  grid-row-gap: 5vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+}
+
+.card {
+  width: 24vw;
+  height: 17vw;
+  color: var(--secondaryColor);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.c2 {
+  width: 24.1vw;
+  margin-top: -7vw;
+  transition: 0.3s;
+  background: rgba(3, 7, 30, 0.473);
+  backdrop-filter: blur(8px);
+}
+
+.cardName {
+  padding-top: 0.5vw;
+  padding-bottom: 1vw;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2vw !important;
+  color: white;
+  font-weight: lighter;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+.cardDetail {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw !important;
+}
+
+.c2 a {
+  color: white;
+}
+
+.akh {
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
